@@ -22,17 +22,12 @@ const FrontendWork = () => {
           Home
         </button>
       </div>
-      <div className="grid sm:grid-cols-2 gap-10  bg-gray-400 px-4 py-4 justify-items-center pt-10 ">
-        <FrontendCard
-          src="https://img.freepik.com/free-photo/colorful-design-with-spiral-design_188544-9588.jpg"
-          title1="My Resume"
-          description1="During the six-month internship at CyberDude Networks (Pvt) Ltd, the task assigned was to assess the proficiency level in HTML and vanilla CSS as part of measuring the interns' knowledge."
-          tagone="HTML"
-          tagtwo="CSS"
-          tagthree="Javascript"
-          livelink=""
-          githuburl=""
-        />
+      <div className="bg-gray-400 font-semibold text-sm sm:text-lg lg:text-3xl text-center px-4 py-4 pt-5 lg:pt-10">
+        <h1>
+          Here is a list enumerating the majority of my professional endeavors
+        </h1>
+      </div>
+      <div className="grid sm:grid-cols-2 gap-10  bg-gray-400 px-4 py-4 justify-items-center pt-2  sm:pt-5 lg:pt-10 ">
         {tasks.map((task) => (
           <FrontendCard
             key={task.id}
@@ -46,6 +41,21 @@ const FrontendWork = () => {
             githuburl={task.github}
           />
         ))}
+      </div>
+      <div className="bg-gray-900 p-5">
+        <div className="text-white flex justify-between space-x-14  items-center px-4 ">
+          <p> Copyright© - 2024 </p>
+          <p>
+            Designed and Developed by :{" "}
+            <a
+              href="https://github.com/dineshdevelope/React-Portfolio"
+              target="_blank"
+              className="hover:font-semibold hover:text-pink-600"
+            >
+              S.Dinesh <span>💖</span>
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   );
