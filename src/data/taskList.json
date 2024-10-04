@@ -129,6 +129,40 @@
         "github": "https://github.com/dineshdevelope/Dummy-chat-app",
         "imgLink": "https://i.ibb.co/jzTCwP3/dummy-chat.png",
         "description": "This task was given to get a better understanding of React.js such as Configuring and creating a simple chat interface using React.js."
+      },
+      {
+        "id": 17,
+        "title": "React Components - Demo",
+        "live": "https://react-blog-reusable-component.netlify.app/",
+        "github": "https://github.com/dineshdevelope/React-reuseable-component",
+        "imgLink": "https://i.ibb.co/sbhNgdW/react-components.png",
+        "description": "This task was given to get an understanding of Components which is one of the important concepts in React. Through this task, got the basic idea of creating reusable components in React and the concept of Props such as passing and validating Props."
+      },
+
+      {
+        "id": 18,
+        "title": "React Blog",
+        "live": "https://react-blog-state-management-app.netlify.app/",
+        "github": "https://github.com/dineshdevelope/React-State-Management",
+        "imgLink": "https://i.ibb.co/94TQmnM/react-blog.png",
+        "description": "This task was given to get an understanding of React States such as useState, and useEffect and how to fetch the data from API with the help of useEffect."
+      },
+      {
+        "id": 19,
+        "title": "Post Finder App",
+        "live": "https://dummy-blog-react.netlify.app/",
+        "github": "https://github.com/dineshdevelope/Dummy-Blog-Post",
+        "imgLink": "https://i.ibb.co/BngZnJZ/dummy-blog-post.png",
+        "description": "This task was given to get an understanding of React States such as useState, and useEffect and how to fetch the data from API with the help of useEffect."
+      },
+
+      {
+        "id": 19,
+        "title": "React Form",
+        "live": "https://react-form-schema-validation.netlify.app/",
+        "github": "https://github.com/dineshdevelope/React-Form_validation",
+        "imgLink": "https://i.ibb.co/hsmDFr7/reactform.png",
+        "description": "The task provided me with an opportunity to understand Form Validation, a crucial concept in React. Through this task, I acquired a basic grasp of implementing form validation using React-Hook-Form."
       }
     ]
   }
