@@ -1,0 +1,22 @@
+[
+  {
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Task Management App",
+        "live": "https://task-management-fullstackapp.onrender.com/",
+        "github": "https://github.com/dineshdevelope/Task-Management-FullStackApp",
+        "imgLink": "https://i.ibb.co/VJ6338k/task-management-app.png",
+        "description": "A web application designed to organize and manage daily tasks with full CRUD functionality. Users can easily create, view, update, and delete tasks, ensuring a streamlined experience for managing routine activities ."
+      },
+      {
+        "id": 2,
+        "title": "Interview-walkins App",
+        "live": "https://interview-walkins-pearl.vercel.app/",
+        "github": "https://github.com/dineshdevelope/interview-walkins",
+        "imgLink": "https://i.ibb.co/JqWDjPG/interview-schedule-app.png",
+        "description": "An efficient scheduling platform that helps users organize and track interview dates and times. With user-friendly features, this app enables users to add and delete interview schedules "
+      }
+    ]
+  }
+]

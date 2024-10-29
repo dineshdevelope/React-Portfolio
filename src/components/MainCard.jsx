@@ -51,23 +51,29 @@ const MainCard = () => {
                 : "fixed left-[-100%]"
             }
           >
-            <h1 className="text-3xl primary-color m-4 ">S.Dinesh</h1>
-            <ul className="p-8 text-2xl">
+            <h1 className="text-3xl primary-color px-4 pt-5">S.Dinesh</h1>
+            <ul className="px-4 pt-2 text-2xl">
               <li className="p-2">
-                <a href="#about">About</a>
+                <a href="#about" onClick={handleNav}>
+                  About
+                </a>
               </li>
               <li className="p-2">
-                <a href="#work">Works</a>
+                <a href="#work" onClick={handleNav}>
+                  Works
+                </a>
               </li>
               <li className="p-2">
-                <a href="#contact">Contact</a>
+                <a href="#contact" onClick={handleNav}>
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-20 max-w-[1200px]  md:h-[70vh] mx-auto py-8 bg-black">
+        <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-20  max-w-[1200px]  md:h-[70vh] mx-auto py-8 bg-black">
           <div className="col-span-1 my-auto mx-auto  w-[300px] h-auto lg:w-[400px]  ">
             <img
               src="https://github.com/dineshdevelope.png"
@@ -107,7 +113,8 @@ const MainCard = () => {
 
             <div className="my-8 space-x-2">
               <a
-                href="/"
+                href="../assets/resume/Dinesh_CV.pdf"
+                download="Dinesh.pdf"
                 className="px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-orange-500 to-pink-500 text-white"
               >
                 Download CV
@@ -123,8 +130,8 @@ const MainCard = () => {
           </div>
         </div>
       </div>
-      <div>
-        <div className=" border border-gray-600 bg-black text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-cols-3 sm:grid-cols-6  place-items-center md:flex md:justify-between md:items-center">
+      <div className="px-3 ">
+        <div className=" border border-gray-600 bg-black text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-cols-3 sm:grid-cols-6  place-items-center md:flex md:justify-between md:items-cente ">
           <h2 className="text-gray-700 text-2xl md:text-4xl font-bold m-4">
             My {<br />} Tech {<br />} Stack
           </h2>
@@ -275,7 +282,7 @@ const MainCard = () => {
                 <img
                   className="rounded-t-lg"
                   src={backendImg}
-                  alt="frontend-project"
+                  alt="backend-project"
                 />
               </a>
               <div className="p-5">
@@ -287,8 +294,8 @@ const MainCard = () => {
                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                   Back-end projects developed using Node Js and Express Js.
                 </p>
-                <a
-                  href="#"
+                <Link
+                  to={"/backend"}
                   className=" bg-button  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                 >
                   explore more
@@ -307,7 +314,7 @@ const MainCard = () => {
                       d="M1 5h12m0 0L9 1m4 4L9 9"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -328,8 +335,8 @@ const MainCard = () => {
                   Fullstack projects developed using MongoDB,Express Js,React
                   Js,Node Js (MERN).
                 </p>
-                <a
-                  href="#"
+                <Link
+                  to={"/fullstack"}
                   className=" bg-button  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                 >
                   explore more
@@ -348,7 +355,7 @@ const MainCard = () => {
                       d="M1 5h12m0 0L9 1m4 4L9 9"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -411,6 +418,24 @@ const MainCard = () => {
                 </form>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="flex space-x-4 items-center text-white justify-between  max-w-[1200px] mx-auto px-5 pb-5">
+          <div className="text-md sm:text-lg text-main-heading-color text-gray-300">
+            Copyright© - {new Date().getFullYear()}
+          </div>
+          <div className="text-md sm:text-lg">
+            Designed and Developed by: &nbsp;
+            <a
+              href="https://github.com/dineshdevelope"
+              target="_blank"
+              className="font-normal hover:underline hover:font-semibold primary-color"
+            >
+              S.Dinesh
+            </a>
+            &nbsp; ❤️
           </div>
         </div>
       </div>
