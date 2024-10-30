@@ -16,6 +16,7 @@ import frontendImg from "../assets/images/frontend.jpg";
 import backendImg from "../assets/images/backend.png";
 import fullstackImg from "../assets/images/fullstack.png";
 import fullstackImg2 from "../assets/images/fullstack2.png";
+import resume from "../assets/resume/Dinesh.pdf";
 import { Link } from "react-router-dom";
 
 const MainCard = () => {
@@ -113,7 +114,7 @@ const MainCard = () => {
 
             <div className="my-8 space-x-2">
               <a
-                href="../assets/resume/Dinesh_CV.pdf"
+                href={resume}
                 download="Dinesh.pdf"
                 className="px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-orange-500 to-pink-500 text-white"
               >
@@ -422,20 +423,22 @@ const MainCard = () => {
         </div>
       </div>
       <div>
-        <div className="flex space-x-4 items-center text-white justify-between  max-w-[1200px] mx-auto px-5 pb-5">
-          <div className="text-md sm:text-lg text-main-heading-color text-gray-300">
-            Copyright© - {new Date().getFullYear()}
-          </div>
-          <div className="text-md sm:text-lg">
-            Designed and Developed by: &nbsp;
-            <a
-              href="https://github.com/dineshdevelope"
-              target="_blank"
-              className="font-normal hover:underline hover:font-semibold primary-color"
-            >
-              S.Dinesh
-            </a>
-            &nbsp; ❤️
+        <div className="pt-3 ">
+          <div className="flex space-x-4 items-center text-white justify-between  max-w-[1200px] mx-auto px-5 pb-5">
+            <div className="text-md sm:text-lg text-main-heading-color text-gray-300 ">
+              Copyright© - {new Date().getFullYear()}
+            </div>
+            <div className="text-md sm:text-lg">
+              Designed and Developed by: &nbsp;
+              <a
+                href="https://github.com/dineshdevelope"
+                target="_blank"
+                className="font-normal hover:underline hover:font-semibold primary-color"
+              >
+                S.Dinesh
+              </a>
+              &nbsp; ❤️
+            </div>
           </div>
         </div>
       </div>
