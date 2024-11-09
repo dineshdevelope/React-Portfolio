@@ -16,7 +16,16 @@
         "github": "https://github.com/dineshdevelope/interview-walkins",
         "imgLink": "https://i.ibb.co/JqWDjPG/interview-schedule-app.png",
         "description": "An efficient scheduling platform that helps users organize and track interview dates and times. With user-friendly features, this app enables users to add and delete interview schedules "
+      },
+      {
+        "id": 3,
+        "title": "Taxi-Booking-App",
+        "live": "https://namakkal-travels.netlify.app/",
+        "github": "https://github.com/dineshdevelope/Taxi-Booking-App",
+        "imgLink": "https://i.ibb.co/w4Fv0dK/call-taxi.png",
+        "description": "Call Taxi is a quick and easy app for booking nearby rides, with real-time tracking, secure payments, and instant ride updates for a smooth experience. "
       }
+
     ]
   }
 ]
