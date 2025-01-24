@@ -24,8 +24,15 @@
         "github": "https://github.com/dineshdevelope/Taxi-Booking-App-Context-API",
         "imgLink": "https://i.ibb.co/w4Fv0dK/call-taxi.png",
         "description": "Call Taxi is a quick and easy app for booking nearby rides, with real-time tracking, secure payments, and instant ride updates for a smooth experience. "
+      },
+      {
+        "id": 4,
+        "title": "Mini E-Commerce App",
+        "live": "https://e-commerce-app-1-2cpw.onrender.com/",
+        "github": "https://github.com/dineshdevelope/E-commerce-App",
+        "imgLink": "https://i.ibb.co/9tCsq4P/mini-ecommerce.png",
+        "description": "Mini E-Commerce Application using mern stack. User can view,add,update and delete a product also add a product to cart and place a order.Admin can add,update and delete a product"
       }
-
     ]
   }
 ]
