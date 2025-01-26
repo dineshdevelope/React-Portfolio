@@ -28,8 +28,8 @@
       {
         "id": 4,
         "title": "Mini E-Commerce App",
-        "live": "https://e-commerce-app-1-2cpw.onrender.com/",
-        "github": "https://github.com/dineshdevelope/E-commerce-App",
+        "live": "https://ecommerce-app-client-delta.vercel.app",
+        "github": "https://github.com/dineshdevelope/Ecommerce-App",
         "imgLink": "https://i.ibb.co/9tCsq4P/mini-ecommerce.png",
         "description": "Mini E-Commerce Application using mern stack. User can view,add,update and delete a product also add a product to cart and place a order.Admin can add,update and delete a product"
       }
